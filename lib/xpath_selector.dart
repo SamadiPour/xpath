@@ -107,6 +107,16 @@ class SelectorEvaluator extends VisitorBase {
     }
   }
 
+  ///return first of  [list]
+  ///
+  String? getText() {
+    final list = elements();
+    if (list.isNotEmpty) {
+      list.first?.text.trim();
+    } else
+      return null;
+  }
+
   ///return List<String> form [_results] output text
   ///
   List<String> list() {
