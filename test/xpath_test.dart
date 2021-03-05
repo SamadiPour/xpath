@@ -17,6 +17,7 @@ Future<void> main() async {
     print(xpath.query("//div/a/@href").get());
     print(xpath.query("//div[@class]/text()").list());
     print(xpath.query("//div[@class='head']/text()").get());
+    print(xpath.query("//div[@class='head']").getText());
     print(xpath.query("//div[@class^='he']/text()").get());
     print(xpath.query("//div[@class\$='nd']/text()").get());
     print(xpath.query("//div[@class*='ea']/text()").get());

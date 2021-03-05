@@ -112,7 +112,7 @@ class SelectorEvaluator extends VisitorBase {
   String? getText() {
     final list = elements();
     if (list.isNotEmpty) {
-      list.first?.text.trim();
+      return list.first?.text.trim();
     } else
       return null;
   }
