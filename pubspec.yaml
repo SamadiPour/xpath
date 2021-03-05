@@ -1,16 +1,16 @@
 name: xpath_parse
 description: xpath package for dart, uses a path expression to select node or a list of nodes from an XML document.
-version: 1.0.2
+version: 1.0.3
 author: codingfd<codingfd.zhou@gmail.com>
 homepage: "https://github.com/codingfd/xpath"
 
 environment:
-  sdk: ">=2.2.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  html: ^0.14.0+3
+  html: ^0.15.0
 
 dev_dependencies:
   flutter_test:
